@@ -33,6 +33,8 @@ let numberTwo = 60;
 let suma = numberOne + numberTwo;
 console.log(suma);
 */
+
+/*
 console.log("--------Ejercicio1-----------");
 
 let firstName = prompt("Enter first name");
@@ -40,3 +42,21 @@ let lastName = prompt("Enter last name");
 
 let fullName = firstName.toLowerCase() + " " + lastName.toUpperCase();
 console.log(fullName);
+*/
+
+/*
+Crear una funcion que permita al usuario retornar el numero de coincidencias de una 
+palabra en una frase que el mismo usuario ingrese
+
+input:
+Palabra a buscar: ""
+Frase:
+
+Output: "El numero de coincidencias "
+*/
+
+function coincidence(str, paragraph) {
+  let coincidence = paragraph.match(/[str]/g);
+  return coincidence;
+}
+console.log(coincidence("Hola", "Hola como estas"));
