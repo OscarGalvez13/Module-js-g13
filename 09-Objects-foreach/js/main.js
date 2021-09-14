@@ -110,3 +110,15 @@ let dataarray = [
   ["Tux", "Tuxtla"],
   ["Jorge", "De Buen"],
 ];
+
+const getArrayWithObject = (arrayMentors) => {
+  let newArrayMentors = [];
+  for (let i = 0; i < arrayMentors.length; i++) {
+    // console.log(arrayMentors[i])
+    let name = arrayMentors[i][0];
+    let lastName = arrayMentors[i][1];
+    let mentorObject = { name, lastName };
+    newArrayMentors.push(mentorObject);
+  }
+  return newArrayMentors;
+};
