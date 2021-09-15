@@ -102,7 +102,7 @@ console.log(myColor2);
 console.log(myColor3);
 */
 
-let dataArray = [
+/* let dataArray = [
   ["Fernanda", "Palacios"],
   ["Alfred", "Altamirano"],
   ["Angel", "Resendiz"],
@@ -152,6 +152,7 @@ arrayMentors.forEach((mentor, index) => {
   console.log(mentor.name);
   console.log(index);
 });
+ */
 
 let mentorArray = [
   {
