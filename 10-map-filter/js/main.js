@@ -72,3 +72,28 @@ const songsData = [
 - La cancion con más reproducciones
 - La cancion con más likes
 */
+
+/*
+Obtener una lista de strings con el siguiente formato:
+"La cancion {name} es de {banda}"
+*/
+
+/*
+crear una funcion que me permita Obtener las canciones que contengan un criterio de busqueda
+criterio: cel
+[
+    {
+        name: "La celula que explota",
+        band: "Jaguares",
+        releaseYear: "1999",
+        statistics: {
+            likes: 12000,
+            reproductions: 23421
+        },
+    }
+]
+*/
+
+const songs = songsData.map(function (cancion) {
+  return `La cancion es ${cancion.name} de la banda ${cancion.band}`;
+});
