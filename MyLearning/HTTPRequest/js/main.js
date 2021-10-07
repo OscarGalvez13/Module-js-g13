@@ -1,4 +1,4 @@
-const firstReq = new XMLHttpRequest();
+/* const firstReq = new XMLHttpRequest();
 firstReq.addEventListener("load", function () {
   console.log("It Worked!!!");
   const data = JSON.parse(this.responseText);
@@ -14,9 +14,9 @@ firstReq.addEventListener("load", function () {
   });
   filmReq.open("Get", filmURL);
   filmReq.send();
-  /* for (let planet of data.results) {
+  for (let planet of data.results) {
     console.log(planet.name);
-  } */
+  }
 });
 
 firstReq.addEventListener("error", () => {
@@ -26,3 +26,4 @@ firstReq.addEventListener("error", () => {
 firstReq.open("GET", "https://swapi.dev/api/planets/");
 firstReq.send();
 console.log("Request Sent!!");
+ */
